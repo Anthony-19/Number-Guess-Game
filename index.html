@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Number Guess</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-flex">
+            <h3>I am  thinking of a number between 1 to 10 <br>
+                Can you make a guess?
+            </h3>
+            <div class="input--numbers">
+                <input type="number" placeholder="0" class="input-guess">
+                <button class="check">Guess</button>
+            </div>
+            <p class="guessHighLow">Your Guess is high!</p>
+            <p class="no-of-chances">No of chances: 3</p>
+            <p class="guessed-number">Guessed number are: ---</p>
+        </div>
+        <div class="lost">
+            <h3 class="you--lost">You lost the game 😥</h3>
+            <button class="play--again">Play Again</button>
+        </div>
+    </div>
+</body>
+</html>

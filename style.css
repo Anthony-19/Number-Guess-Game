@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(114,137,218);
+}
+h3{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.container-flex{
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* display: none; */
+}
+.input--numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.5rem;
+}
+.check {
+    width: 20vw;
+    height: 35px;
+    border-radius: 0.5rem;
+    background: rgb(114,137,218);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.input-guess {
+    height: 35px;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(191,191,191);
+    text-indent: 0.5rem;
+}
+
+p{
+    font-size: 12px;
+}
+.guessHighLow{
+    display: none;
+}
+.lost {
+    all: unset;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    display: none;
+}
+.play--again {
+    height: 35px;
+    width: 9rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: rgb(114,137,218);
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 440px) {
+    .lost {
+        width: 90vw;
+    }
+}
+@media screen and (max-width: 280px) {
+    .lost {
+        width: 90vw;
+    }
+}
